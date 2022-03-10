@@ -12,7 +12,9 @@ struct TabOneView: View {
     var body: some View {
       VStack {
         Text("The First Tab")
-        Image(systemName: "rectangle")
+          .font(.headline)
+        Image(systemName: "1.square.fill")
+          .resizable()
       }
     }
 }

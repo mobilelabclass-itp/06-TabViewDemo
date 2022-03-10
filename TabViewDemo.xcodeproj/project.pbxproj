@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB177E3927DA9F140087E046 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AB177E3827DA9F140087E046 /* README.md */; };
 		ABA7F8CB27D2AE33006B3A2E /* TabViewDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7F8CA27D2AE33006B3A2E /* TabViewDemoApp.swift */; };
 		ABA7F8CD27D2AE33006B3A2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7F8CC27D2AE33006B3A2E /* ContentView.swift */; };
 		ABA7F8CF27D2AE33006B3A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA7F8CE27D2AE33006B3A2E /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB177E3827DA9F140087E046 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ABA7F8C727D2AE33006B3A2E /* TabViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA7F8CA27D2AE33006B3A2E /* TabViewDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDemoApp.swift; sourceTree = "<group>"; };
 		ABA7F8CC27D2AE33006B3A2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +41,7 @@
 		ABA7F8BE27D2AE33006B3A2E = {
 			isa = PBXGroup;
 			children = (
+				AB177E3827DA9F140087E046 /* README.md */,
 				ABA7F8C927D2AE33006B3A2E /* TabViewDemo */,
 				ABA7F8C827D2AE33006B3A2E /* Products */,
 			);
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB177E3927DA9F140087E046 /* README.md in Resources */,
 				ABA7F8D227D2AE33006B3A2E /* Preview Assets.xcassets in Resources */,
 				ABA7F8CF27D2AE33006B3A2E /* Assets.xcassets in Resources */,
 			);

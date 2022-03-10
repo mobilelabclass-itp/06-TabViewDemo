@@ -9,7 +9,12 @@ import SwiftUI
 
 struct TabTwoView: View {
     var body: some View {
-      Text("Second Tab")
+      VStack {
+        Text("Second Tab")
+          .font(.headline)
+        Image(systemName: "2.square.fill")
+          .resizable()
+      }
     }
 }
 
